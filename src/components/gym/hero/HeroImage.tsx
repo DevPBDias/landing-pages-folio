@@ -4,11 +4,11 @@ import hero from "@/assets/gym/images/hero-gym.png";
 
 const HeroImage = () => {
   return (
-    <picture>
+    <picture className="z-10 relative w-[750px] h-[700px]">
       <Image
         src={hero}
         alt="hero iamge"
-        className="z-10 relative w-[750px] h-[700px]"
+        className="w-full h-full object-cover"
         quality={100}
         priority
       />

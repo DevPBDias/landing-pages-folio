@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="sticky top-6 left-0 w-full flex flex-row justify-between items-center px-12 z-10">
+    <header className="sticky top-6 left-0 w-full flex flex-row justify-between items-center px-12 z-20">
       <h1 className="font-bold text-5xl">Gym Logo</h1>
       <nav className="flex flex-row justify-center items-center gap-8 px-6">
         {navLinks?.map((link) => (
