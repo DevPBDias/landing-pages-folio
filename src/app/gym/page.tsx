@@ -1,7 +1,9 @@
-import React from "react";
+import Header from "@/components/gym/header/Header";
 
-export default function Container({ children }: { children: React.ReactNode }) {
+export default function GymWbesite() {
   return (
-    <main className="w-full px-12 border-red-600 border-2">{children}</main>
+    <main className="w-full flex flex-col justify-center items-center">
+      <Header />
+    </main>
   );
 }
