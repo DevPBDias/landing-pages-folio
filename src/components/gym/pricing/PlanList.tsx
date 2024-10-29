@@ -3,7 +3,7 @@ import PlanCard from "./PlanCard";
 
 const PlanList = () => {
   return (
-    <section>
+    <section className="grid grid-cols-3 gap-20 px-12 mt-24">
       {plansData.map((plan) => (
         <PlanCard key={plan.id} data={plan} />
       ))}

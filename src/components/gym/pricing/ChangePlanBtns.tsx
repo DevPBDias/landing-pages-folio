@@ -10,7 +10,7 @@ const ChangePlanBtns = () => {
   };
 
   return (
-    <div className="relative w-fit">
+    <div className="relative mr-24">
       <button
         className={`w-28 py-1  ${
           isPressed ? "bg-black text-white" : "bg-white text-black"
