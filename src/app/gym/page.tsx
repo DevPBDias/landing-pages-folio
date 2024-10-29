@@ -3,6 +3,7 @@ import Coaches from "@/components/gym/coach/Coaches";
 import Header from "@/components/gym/header/Header";
 import Hero from "@/components/gym/hero/MainHero";
 import Information from "@/components/gym/information/Information";
+import PricingPlan from "@/components/gym/pricing/PricingPlan";
 
 export default function GymWbesite() {
   return (
@@ -12,6 +13,7 @@ export default function GymWbesite() {
       <Information />
       <About />
       <Coaches />
+      <PricingPlan />
     </main>
   );
 }
