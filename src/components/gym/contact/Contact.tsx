@@ -1,5 +1,6 @@
 import Image from "next/image";
 import contact from "@/assets/gym/images/Footer.png";
+import { PhoneCall } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -15,7 +16,10 @@ const Contact = () => {
         <h3 className="text-white text-2xl font-medium">
           Entre em contato conosco!
         </h3>
-        <h1 className="text-white text-6xl font-bold">(99) 99999-9999</h1>
+        <div className="flex flex-row justify-center items-center gap-6 ">
+          <PhoneCall size={60} color="#ffffff" />
+          <h1 className="text-white text-6xl font-bold">(99) 99999-9999</h1>
+        </div>
         <p className="text-gray-500 text-base font-normal w-1/2 text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
