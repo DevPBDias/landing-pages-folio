@@ -4,7 +4,10 @@ import ReviewsList from "./ReviewsList";
 
 const Reviews = () => {
   return (
-    <main className="flex flex-col w-full justify-center items-start px-12 py-24">
+    <main
+      id="avaliacao"
+      className="flex flex-col w-full justify-center items-start px-12 py-24"
+    >
       <h3 className="text-2xl font-normal text-gray-500">
         Comentários dos alunos
       </h3>
