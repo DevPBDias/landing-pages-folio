@@ -1,4 +1,3 @@
-import React from "react";
 import plansData from "../constants/plansData";
 import PlanCard from "./PlanCard";
 
