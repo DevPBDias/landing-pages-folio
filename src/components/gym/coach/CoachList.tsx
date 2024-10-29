@@ -4,9 +4,9 @@ import CoachCard from "./CoachCard";
 
 const CoachList = () => {
   return (
-    <div>
+    <div className="flex flex-row justify-around items-center">
       {coachesData.map((coach) => (
-        <CoachCard key={coach.id} name={coach.name} />
+        <CoachCard key={coach.id} data={coach} />
       ))}
     </div>
   );

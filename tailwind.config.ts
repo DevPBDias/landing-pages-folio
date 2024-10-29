@@ -13,6 +13,11 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
     },
+    variants: {
+      extend: {
+        visibility: ["group-hover"],
+      },
+    },
   },
   plugins: [],
 };

@@ -1,6 +1,6 @@
 const Title = ({ title }: { title: string }) => {
   return (
-    <div className="flex flex-col justify-center items-center w-full gap-4">
+    <div className="flex flex-col justify-center items-center w-full gap-6">
       <h1 className="text-6xl font-bold">{title}</h1>
       <p className="text-base font-normal w-1/2 text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
