@@ -1,6 +1,7 @@
 import About from "@/components/gym/about/About";
 import Coaches from "@/components/gym/coach/Coaches";
 import Contact from "@/components/gym/contact/Contact";
+import Footer from "@/components/gym/footer/Footer";
 import Header from "@/components/gym/header/Header";
 import Hero from "@/components/gym/hero/MainHero";
 import Information from "@/components/gym/information/Information";
@@ -18,6 +19,7 @@ export default function GymWbesite() {
       <PricingPlan />
       <Reviews />
       <Contact />
+      <Footer />
     </main>
   );
 }
