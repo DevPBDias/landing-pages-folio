@@ -1,13 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import useChangePrice from "../hooks/useChangePrice";
 
 const ChangePlanBtns = () => {
-  const [isPressed, setIsPressed] = useState(false);
-
-  const handleClick = () => {
-    setIsPressed(!isPressed);
-  };
+  const { isPressed, handleClick } = useChangePrice();
 
   return (
     <div className="relative mr-24">

@@ -13,7 +13,7 @@ const PlanCard = ({ data }: CardProps) => {
         </h4>
         <div className="flex flex-row gap-3 items-end">
           <h1 className="text-5xl font-bold group-hover:text-white">
-            $ {data?.price}
+            $ {data?.price.month}
           </h1>
           <span className="text-base font-bold group-hover:text-white">
             / Mensal
@@ -25,8 +25,8 @@ const PlanCard = ({ data }: CardProps) => {
         </p>
       </div>
       <div className="flex flex-col justify-start items-start gap-3">
-        {data?.advantages.map((item: any) => (
-          <div className="flex flex-row gap-3 items-center">
+        {data?.advantages.map((item: any, index: number) => (
+          <div key={index} className="flex flex-row gap-3 items-center">
             <div className="p-1 rounded-full bg-black group-hover:hidden">
               <Check size={16} color="#ffffff" />
             </div>
