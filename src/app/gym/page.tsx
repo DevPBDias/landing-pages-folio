@@ -4,6 +4,7 @@ import Header from "@/components/gym/header/Header";
 import Hero from "@/components/gym/hero/MainHero";
 import Information from "@/components/gym/information/Information";
 import PricingPlan from "@/components/gym/pricing/PricingPlan";
+import Reviews from "@/components/gym/reviews/Reviews";
 
 export default function GymWbesite() {
   return (
@@ -14,6 +15,7 @@ export default function GymWbesite() {
       <About />
       <Coaches />
       <PricingPlan />
+      <Reviews />
     </main>
   );
 }
