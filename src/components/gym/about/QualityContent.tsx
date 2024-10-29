@@ -9,7 +9,7 @@ const QualityContent = () => {
         </div>
         <figcaption className="flex flex-col justify-start items-start w-full gap-3">
           <h3 className="font-semibold text-xl">Treinos estimulantes</h3>
-          <p>
+          <p className="text-gray-500 text-base font-normal">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore
           </p>
@@ -21,7 +21,7 @@ const QualityContent = () => {
         </div>
         <figcaption className="flex flex-col justify-start items-start w-full gap-3">
           <h3 className="font-semibold text-xl">Ambientes climatizados</h3>
-          <p>
+          <p className="text-gray-500 text-base font-normal">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore
           </p>
@@ -33,7 +33,7 @@ const QualityContent = () => {
         </div>
         <figcaption className="flex flex-col justify-start items-start w-full gap-3">
           <h3 className="font-semibold text-xl">Preço justo</h3>
-          <p className="font-normal text-base">
+          <p className="text-gray-500 text-base font-normal">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore
           </p>
@@ -45,7 +45,7 @@ const QualityContent = () => {
         </div>
         <figcaption className="flex flex-col justify-start items-start w-full gap-3">
           <h3 className="font-semibold text-xl">Professores qualificados</h3>
-          <p className="font-normal text-base">
+          <p className="text-gray-500 text-base font-normal">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore
           </p>
