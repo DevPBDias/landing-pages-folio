@@ -5,9 +5,9 @@ import Gallery from "./Gallery";
 
 const About = () => {
   return (
-    <div>
+    <div className="flex flex-col px-12 py-24 gap-24">
       <Title />
-      <section>
+      <section className="flex flex-row w-full justify-between items-center">
         <QualityContent />
         <Gallery />
       </section>

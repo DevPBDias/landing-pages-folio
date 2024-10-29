@@ -5,17 +5,29 @@ import gym3 from "@/assets/gym/images/equipment.jpg";
 
 const Gallery = () => {
   return (
-    <section>
-      <div>
-        <picture>
-          <Image src={gym1} alt="gym_photo" />
+    <section className="flex flex-row justify-between items-center gap-6">
+      <div className="flex flex-col justify-center items-center gap-8">
+        <picture className="flex justify-center items-center w-64 h-44">
+          <Image
+            src={gym1}
+            alt="gym_photo"
+            className="object-cover w-full h-full rounded-2xl"
+          />
         </picture>
-        <picture>
-          <Image src={gym2} alt="gym_photo2" />
+        <picture className="flex justify-center items-center w-64 h-44">
+          <Image
+            src={gym2}
+            alt="gym_photo2"
+            className="object-cover w-full h-full rounded-2xl"
+          />
         </picture>
       </div>
-      <picture>
-        <Image src={gym3} alt="gym_photo3" />
+      <picture className="flex justify-center items-center w-72 h-96">
+        <Image
+          src={gym3}
+          alt="gym_photo3"
+          className="object-cover w-full h-full rounded-2xl"
+        />
       </picture>
     </section>
   );

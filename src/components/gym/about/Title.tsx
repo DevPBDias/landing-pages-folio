@@ -2,9 +2,9 @@ import React from "react";
 
 const Title = () => {
   return (
-    <div>
-      <h1>Quem somos</h1>
-      <p>
+    <div className="flex flex-col justify-center items-center w-full gap-4">
+      <h1 className="text-6xl font-bold">Quem somos</h1>
+      <p className="text-base font-normal w-1/2 text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
