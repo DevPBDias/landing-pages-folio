@@ -11,7 +11,7 @@ const RatingStars = ({ rating }: any) => {
   return (
     <div className="flex flex-row justify-start items-center">
       {stars.map((_: any, index: number) => (
-        <div>
+        <div key={index}>
           <Star
             key={index}
             size={20}
