@@ -1,10 +1,12 @@
-import React from "react";
+interface ICoachProps {
+  name: string;
+}
 
-const Title = () => {
+const CoachCard = ({ name }: ICoachProps) => {
   return (
-    <div className="flex flex-col justify-center items-center w-full gap-4">
-      <h1 className="text-6xl font-bold">Quem somos</h1>
-      <p className="text-base font-normal w-1/2 text-center">
+    <div>
+      <h3>{name}</h3>
+      <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -14,4 +16,4 @@ const Title = () => {
   );
 };
 
-export default Title;
+export default CoachCard;

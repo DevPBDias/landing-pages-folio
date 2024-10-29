@@ -1,12 +1,11 @@
-import React from "react";
-import Title from "./Title";
+import Title from "../common/Title";
 import QualityContent from "./QualityContent";
 import Gallery from "./Gallery";
 
 const About = () => {
   return (
     <div className="flex flex-col px-12 py-24 gap-24">
-      <Title />
+      <Title title="Quem somos" />
       <section className="flex flex-row w-full justify-between items-center">
         <QualityContent />
         <Gallery />
