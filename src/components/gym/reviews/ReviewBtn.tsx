@@ -8,7 +8,9 @@ const ReviewBtn = () => {
       type="button"
     >
       <PlusCircle size={24} color="#ffffff" />
-      <p className="font-bold text-xl text-white">Comentar</p>
+      <p className="font-bold text-xl text-white max-[1024px]:text-lg">
+        Comentar
+      </p>
     </button>
   );
 };

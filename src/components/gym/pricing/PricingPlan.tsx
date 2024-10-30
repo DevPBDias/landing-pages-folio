@@ -5,11 +5,15 @@ const PricingPlan = () => {
   return (
     <main
       id="planos"
-      className="flex flex-col w-full justify-center items-start px-12 py-24"
+      className="flex flex-col w-full justify-center items-start px-12 py-24 max-[1024px]:mt-56 max-[1024px]:items-center"
     >
-      <h3 className="text-2xl font-normal text-gray-500">Preço dos planos</h3>
-      <div className="flex flex-row w-full justify-between items-center mt-4">
-        <h1 className="font-bold text-6xl">Comece hoje</h1>
+      <h3 className="text-2xl font-normal text-gray-500 max-[1024px]:text-center max-[1024px]:text-lg">
+        Preço dos planos
+      </h3>
+      <div className="flex flex-row w-full justify-between items-center mt-4 max-[1024px]:flex-col max-[1024px]:gap-12">
+        <h1 className="font-bold text-6xl max-[1024px]:text-5xl">
+          Comece hoje
+        </h1>
         <ChangePlanBtns />
       </div>
       <PlanList />

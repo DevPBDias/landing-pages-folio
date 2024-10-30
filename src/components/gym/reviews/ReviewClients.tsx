@@ -6,7 +6,7 @@ import reviewClient4 from "@/assets/gym/images/Review_4.png";
 
 const ReviewClients = () => {
   return (
-    <section className="w-1/3 relative h-[550px]">
+    <section className="w-1/3 relative h-[550px] max-[1024px]:w-full">
       <picture className="absolute top-4 left-52">
         <Image src={reviewClient1} alt="client 1" className="object-cover" />
       </picture>
