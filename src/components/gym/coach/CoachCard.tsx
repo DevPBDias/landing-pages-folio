@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const CoachCard = ({ data }: any) => {
   return (
-    <div className="relative w-96 h-[400px] flex justify-center items-center group">
+    <div className="relative w-96 h-[400px] flex justify-center items-center group max-[1024px]:w-full">
       <div className="description_coach invisible group-hover:visible">
         <h3 className="text-xl font-bold text-white">{data.name}</h3>
         <p className="text-sm font-normal text-white ">

@@ -6,7 +6,7 @@ const Reviews = () => {
   return (
     <main
       id="avaliacao"
-      className="flex flex-col w-full justify-center items-start px-12 py-24 max-[1024px]:items-center"
+      className="flex flex-col w-full justify-center items-start px-12 py-24 max-[1024px]:items-center max-[1024px]:px-4"
     >
       <h3 className="text-2xl font-normal text-gray-500 max-[1024px]:text-center max-[1024px]:text-lg">
         Comentários dos alunos

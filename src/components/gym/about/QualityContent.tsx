@@ -2,8 +2,8 @@ import { CloudSnow, DollarSign, HandHeart, HandMetal } from "lucide-react";
 
 const QualityContent = () => {
   return (
-    <section className="max-[1024px]:w-full max-[1024px]:flex max-[1024px]:flex-col max-[1024px]:items-center w-2/3 grid grid-cols-2 gap-y-14 gap-x-9">
-      <div className="flex flex-row justify-start items-start w-96 gap-3">
+    <section className="max-[1024px]:w-full max-[1024px]:grid-cols-1 w-2/3 grid grid-cols-2 gap-y-14 gap-x-9 max-[1024px]:px-4">
+      <div className="flex flex-row justify-start items-start w-96 gap-3 max-[1024px]:flex-col max-[1024px]:w-full">
         <div className="bg-black rounded-full p-3 flex justify-center items-center">
           <HandMetal size={24} color="#ffffff" />
         </div>
@@ -17,7 +17,7 @@ const QualityContent = () => {
           </p>
         </figcaption>
       </div>
-      <div className="flex flex-row justify-start items-start w-96 gap-3">
+      <div className="flex flex-row justify-start items-start w-96 gap-3 max-[1024px]:flex-col max-[1024px]:w-full ">
         <div className="bg-black rounded-full p-3 flex justify-center items-center">
           <CloudSnow size={24} color="#ffffff" />
         </div>
@@ -31,7 +31,7 @@ const QualityContent = () => {
           </p>
         </figcaption>
       </div>
-      <div className="flex flex-row justify-start items-start w-96 gap-3">
+      <div className="flex flex-row justify-start items-start w-96 gap-3 max-[1024px]:flex-col max-[1024px]:w-full">
         <div className="bg-black rounded-full p-3 flex justify-center items-center">
           <DollarSign size={24} color="#ffffff" />
         </div>
@@ -45,7 +45,7 @@ const QualityContent = () => {
           </p>
         </figcaption>
       </div>
-      <div className="flex flex-row justify-start items-start  w-96 gap-3">
+      <div className="flex flex-row justify-start items-start  w-96 gap-3 max-[1024px]:flex-col max-[1024px]:w-full">
         <div className="bg-black rounded-full p-3 flex justify-center items-center">
           <HandHeart size={24} color="#ffffff" />
         </div>

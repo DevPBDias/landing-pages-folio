@@ -19,7 +19,7 @@ const PlanCard = ({ data }: CardProps) => {
             / Mensal
           </span>
         </div>
-        <p className="text-base font-normal text-gray-500 group-hover:text-gray-300">
+        <p className="text-base font-normal text-gray-500 group-hover:text-gray-300 max-[1024px]:text-sm">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut
         </p>
@@ -33,7 +33,7 @@ const PlanCard = ({ data }: CardProps) => {
             <div className="p-1 rounded-full bg-white hidden group-hover:flex">
               <Check size={16} color="#0f0f0f" />
             </div>
-            <p className="text-base font-normal group-hover:text-white">
+            <p className="text-base font-normal group-hover:text-white max-[1024px]:text-sm">
               {item}
             </p>
           </div>

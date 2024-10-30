@@ -2,7 +2,7 @@ import infoGym from "../constants/dataGym";
 
 const Information = () => {
   return (
-    <section className="max-[1024px]:flex-col max-[1024px]:gap-12 w-full flex flex-row justify-between items-center px-28 py-14 bg-black">
+    <section className="max-[1024px]:flex-col max-[1024px]:gap-12 w-full flex flex-row justify-between items-center px-28 py-14 bg-black max-[1024px]:px-4">
       {infoGym.map((info) => (
         <div
           key={info.id}
