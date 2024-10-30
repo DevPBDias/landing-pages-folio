@@ -5,13 +5,13 @@ import coach5 from "@/assets/gym/images/coach2.jpg";
 
 const MentorCard = () => {
   return (
-    <section className="w-full flex flex-row justify-between items-center h-96 gap-9 mt-32">
-      <div className="w-1/2 flex flex-row justify-center items-center h-full gap-7">
+    <section className="w-full flex flex-row justify-between items-center h-96 gap-9 mt-32 max-[1024px]:flex-col">
+      <div className="w-1/2 flex flex-row justify-center items-center h-full gap-7 max-[1024px]:w-full">
         <picture className="w-1/3 h-full rounded-2xl">
           <Image
             src={coach4}
             alt="coach training"
-            className="object-cover w-full h-full  rounded-2xl"
+            className="object-cover w-full h-full rounded-2xl"
           />
         </picture>
         <picture className="w-2/3 h-full rounded-2xl">
@@ -23,12 +23,12 @@ const MentorCard = () => {
           />
         </picture>
       </div>
-      <div className="w-1/2 flex flex-col justify-around items-start h-full">
-        <div className="flex flex-col justify-center items-start gap-4">
+      <div className="w-1/2 flex flex-col justify-around items-start h-full max-[1024px]:w-full max-[1024px]:gap-6 max-[1024px]:text-base max-[1024px]:items-center">
+        <div className="flex flex-col justify-center items-start gap-4 max-[1024px]:items-center">
           <h3 className="font-normal text-xl">Procurando por um professor?</h3>
           <h1 className="font-bold text-4xl">Professores</h1>
         </div>
-        <p className="font-normal text-base text-gray-500">
+        <p className="font-normal text-base text-gray-500 max-[1024px]:text-sm max-[1024px]:text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -38,7 +38,7 @@ const MentorCard = () => {
           exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
         <button
-          className="px-9 py-3 bg-black font-bold text-xl text-white rounded-2xl"
+          className="px-9 py-3 bg-black font-bold text-xl text-white rounded-2xl max-[1024px]:text-base max-[1024px]:w-2/3"
           type="button"
         >
           Saiba mais

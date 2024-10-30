@@ -2,14 +2,16 @@ import { CloudSnow, DollarSign, HandHeart, HandMetal } from "lucide-react";
 
 const QualityContent = () => {
   return (
-    <section className="w-2/3 grid grid-cols-2 gap-y-14 gap-x-9">
+    <section className="max-[1024px]:w-full max-[1024px]:flex max-[1024px]:flex-col max-[1024px]:items-center w-2/3 grid grid-cols-2 gap-y-14 gap-x-9">
       <div className="flex flex-row justify-start items-start w-96 gap-3">
         <div className="bg-black rounded-full p-3 flex justify-center items-center">
           <HandMetal size={24} color="#ffffff" />
         </div>
         <figcaption className="flex flex-col justify-start items-start w-full gap-3">
-          <h3 className="font-semibold text-xl">Treinos estimulantes</h3>
-          <p className="text-gray-500 text-base font-normal">
+          <h3 className="font-semibold text-xl max-[1024px]:text-lg">
+            Treinos estimulantes
+          </h3>
+          <p className="text-gray-500 text-base font-normal max-[1024px]:text-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore
           </p>
@@ -20,8 +22,10 @@ const QualityContent = () => {
           <CloudSnow size={24} color="#ffffff" />
         </div>
         <figcaption className="flex flex-col justify-start items-start w-full gap-3">
-          <h3 className="font-semibold text-xl">Ambientes climatizados</h3>
-          <p className="text-gray-500 text-base font-normal">
+          <h3 className="font-semibold text-xl max-[1024px]:text-lg">
+            Ambientes climatizados
+          </h3>
+          <p className="text-gray-500 text-base font-normal max-[1024px]:text-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore
           </p>
@@ -32,8 +36,10 @@ const QualityContent = () => {
           <DollarSign size={24} color="#ffffff" />
         </div>
         <figcaption className="flex flex-col justify-start items-start w-full gap-3">
-          <h3 className="font-semibold text-xl">Preço justo</h3>
-          <p className="text-gray-500 text-base font-normal">
+          <h3 className="font-semibold text-xl max-[1024px]:text-lg">
+            Preço justo
+          </h3>
+          <p className="text-gray-500 text-base font-normal max-[1024px]:text-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore
           </p>
@@ -44,8 +50,10 @@ const QualityContent = () => {
           <HandHeart size={24} color="#ffffff" />
         </div>
         <figcaption className="flex flex-col justify-start items-start w-full gap-3">
-          <h3 className="font-semibold text-xl">Professores qualificados</h3>
-          <p className="text-gray-500 text-base font-normal">
+          <h3 className="font-semibold text-xl max-[1024px]:text-lg">
+            Professores qualificados
+          </h3>
+          <p className="text-gray-500 text-base font-normal max-[1024px]:text-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore
           </p>
