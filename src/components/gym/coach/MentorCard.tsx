@@ -7,14 +7,14 @@ const MentorCard = () => {
   return (
     <section className="w-full flex flex-row justify-between items-center h-96 gap-9 mt-32 max-[1024px]:flex-col-reverse max-[1024px]:h-fit">
       <div className="w-1/2 flex flex-row justify-center items-center h-full gap-7 max-[1024px]:w-full max-[768px]:flex-col">
-        <picture className="w-1/3 h-full rounded-2xl max-[768px]:w-full">
+        <picture className="w-1/3 h-full rounded-2xl max-[1024px]:w-full">
           <Image
             src={coach4}
             alt="coach training"
             className="object-cover w-full h-full rounded-2xl"
           />
         </picture>
-        <picture className="w-2/3 h-full rounded-2xl max-[768px]:w-full">
+        <picture className="w-2/3 h-full rounded-2xl max-[1024px]:w-full">
           <Image
             src={coach5}
             alt="coach training"

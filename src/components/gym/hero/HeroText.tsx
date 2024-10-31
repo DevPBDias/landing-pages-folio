@@ -6,7 +6,7 @@ const HeroText = () => {
       <h1 className="max-[1024px]:w-full max-[1024px]:text-4xl w-1/2 font-bold text-6xl text leading-normal max-[1024px]:text-center">
         Eleve o seu treino
       </h1>
-      <p className="w-full font-light text-base text-gray-500 max-[1024px]:text-xs max-[1024px]:text-center">
+      <p className="w-full font-light text-base text-gray-500 max-[768px]:text-sm max-[1024px]:text-center max-[1024px]:w-3/4 max-[1440px]:w-2/3">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

@@ -6,18 +6,34 @@ import reviewClient4 from "@/assets/gym/images/Review_4.png";
 
 const ReviewClients = () => {
   return (
-    <section className="w-1/3 relative h-[550px] max-[1024px]:hidden">
-      <picture className="absolute top-4 left-52">
-        <Image src={reviewClient1} alt="client 1" className="object-cover" />
+    <section className="w-1/3 h-[550px] max-[1024px]:hidden flex flex-col justify-around items-center">
+      <picture className="w-36 h-36 mr-24 mt-12">
+        <Image
+          src={reviewClient1}
+          alt="client 1"
+          className="object-cover w-full h-full"
+        />
       </picture>
-      <picture className="absolute top-36 left-12">
-        <Image src={reviewClient2} alt="client 1" className="object-cover" />
+      <picture className="w-24 h-24 ml-auto -mt-24">
+        <Image
+          src={reviewClient2}
+          alt="client 2"
+          className="object-cover w-full h-full "
+        />
       </picture>
-      <picture className="absolute bottom-24 right-12">
-        <Image src={reviewClient3} alt="client 1" className="object-cover" />
+      <picture className="w-36 h-36 ml-24">
+        <Image
+          src={reviewClient3}
+          alt="client 3"
+          className="object-cover w-full h-full"
+        />
       </picture>
-      <picture className="absolute bottom-4 left-20">
-        <Image src={reviewClient4} alt="client 1" className="object-cover" />
+      <picture className="w-30 h-30 mb-12">
+        <Image
+          src={reviewClient4}
+          alt="client 4"
+          className="object-cover w-full h-full"
+        />
       </picture>
     </section>
   );

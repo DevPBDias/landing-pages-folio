@@ -5,7 +5,7 @@ import FooterMidia from "./FooterMidia";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-row w-full px-12 py-24 gap-80 relative max-[1024px]:px-4 max-[1024px]:flex-col max-[1024px]:gap-16 max-[1024px]:items-center">
+    <footer className="flex flex-row w-full px-12 py-24 justify-between relative max-[1024px]:px-4 max-[1024px]:flex-col max-[1024px]:gap-16 max-[1024px]:items-center">
       <LogoText />
       <FooterLinks />
       <FooterMidia />
