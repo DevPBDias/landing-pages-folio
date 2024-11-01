@@ -1,0 +1,15 @@
+$primary-color: #334B35;
+$light-primary-color: #678551;
+$dark-primary-color: #263C28;
+$secondary-color: #F7C35F;
+$text-color: #FFFFFF;
+$main-font: var(--font-centgo);
+$title-font: var(--font-livvic);
+
+:export {
+  primaryColor: $primary-color;
+  secondaryColor: $secondary-color;
+  textColor: $text-color;
+  darkMainColor: $dark-primary-color;
+  lightMainColor: $light-primary-color;
+}
