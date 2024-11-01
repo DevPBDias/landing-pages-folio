@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
-import { Anton, Roboto } from "next/font/google";
+import { Anton, Roboto, Livvic } from "next/font/google";
 import "./globals.css";
+
+const livvic = Livvic({
+  subsets: ["latin", "latin-ext", "vietnamese"],
+  weight: "400",
+  display: "swap",
+  variable: "--font-livvic",
+});
 
 const anton = Anton({
   subsets: ["latin", "latin-ext", "vietnamese"],
@@ -28,7 +35,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${anton.variable} ${roboto.variable}`}>
+    <html
+      lang="en"
+      className={`${anton.variable} ${roboto.variable} ${livvic.variable}`}
+    >
       <body>{children}</body>
     </html>
   );

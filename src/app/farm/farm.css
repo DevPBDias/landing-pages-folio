@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #334b35;
+  --light-primary-color: #678551;
+  --dark-primary-color: #263c28;
+  --secondary-color: #f7c35f;
+  --text-color: #ffffff;
+  --main-font: var(--font-centgo);
+  --title-font: var(--font-livvic);
+}
+
+body {
+  font-family: var(--font-livvic);
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-livvic);
+}
