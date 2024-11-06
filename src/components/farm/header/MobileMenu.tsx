@@ -12,14 +12,14 @@ const MobileMenu = () => {
     <header className="min-[1024px]:hidden">
       {open ? (
         <button
-          className="absolute top-4 right-1"
+          className="absolute top-4 right-4"
           type="button"
           onClick={() => setOpen(!open)}
         >
           <Menu size={28} color="#ffffff" />
         </button>
       ) : (
-        <section className="bg-[var(--light-primary-color)] w-2/3 absolute z-50 h-screen top-0 -right-4 flex flex-col justify-center items-center">
+        <section className="bg-[var(--light-primary-color)] w-2/3 absolute z-50 h-screen top-0 right-0 flex flex-col justify-center items-center">
           <div className="absolute top-4 right-4">
             <button type="button" onClick={() => setOpen(!open)}>
               <X size={28} color="#ffffff" />

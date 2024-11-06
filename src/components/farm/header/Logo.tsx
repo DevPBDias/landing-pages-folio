@@ -3,7 +3,9 @@ import React from "react";
 const Logo = () => {
   return (
     <picture>
-      <h1 className="font-bold text-[var(--text-color)]">Farm Logo</h1>
+      <h1 className="text-[clamp(1.2rem,4vw,2.5rem)] font-bold uppercase">
+        Farm Logo
+      </h1>
     </picture>
   );
 };

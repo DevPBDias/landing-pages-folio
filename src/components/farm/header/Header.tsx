@@ -4,7 +4,7 @@ import MobileMenu from "./MobileMenu";
 
 const Header = () => {
   return (
-    <header className="w-full relative py-4">
+    <header className="w-full relative p-4">
       <Logo />
       <MobileMenu />
     </header>

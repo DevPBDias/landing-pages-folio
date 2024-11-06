@@ -1,11 +1,11 @@
 import Header from "@/components/farm/header/Header";
+import Hero from "@/components/farm/hero/Hero";
 
 export default function FarmWbesite() {
   return (
-    <main className="px-4 w-full">
+    <main className="w-full">
       <Header />
-      <h1>Titulo</h1>
-      <p>Hello World</p>
+      <Hero />
     </main>
   );
 }
