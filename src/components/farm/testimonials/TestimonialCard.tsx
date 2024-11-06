@@ -1,4 +1,3 @@
-import { ArrowBigRight } from "lucide-react";
 import Image from "next/image";
 import quote from "@/assets/farm/icons/quote.png";
 
