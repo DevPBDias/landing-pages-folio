@@ -4,7 +4,7 @@ import MobileMenu from "./MobileMenu";
 
 const Header = () => {
   return (
-    <header className="w-full relative p-4">
+    <header className="w-full fixed p-4  z-40 bg-[var(--primary-color)]">
       <Logo />
       <MobileMenu />
     </header>

@@ -4,9 +4,9 @@ import HeroCTA from "./HeroCTA";
 
 const Hero = () => {
   return (
-    <main className="relative w-full h-[85vh] flex justify-start items-center">
+    <main className="relative w-full h-[95vh] flex justify-start items-center">
       <HeroImage />
-      <section className="absolute z-10 px-4 flex flex-col w-full h-2/3 justify-around">
+      <section className="absolute z-10 px-4 flex flex-col w-full h-full justify-end gap-10 mb-40">
         <HeroText />
         <HeroCTA />
       </section>
