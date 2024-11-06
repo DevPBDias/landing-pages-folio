@@ -3,6 +3,7 @@ import Header from "@/components/farm/header/Header";
 import Hero from "@/components/farm/hero/Hero";
 import Products from "@/components/farm/products/Products";
 import Projects from "@/components/farm/projects/Projects";
+import Testimonials from "@/components/farm/testimonials/Testimonials";
 import FarmVideo from "@/components/farm/video/FarmVideo";
 
 export default function FarmWbesite() {
@@ -14,6 +15,7 @@ export default function FarmWbesite() {
       <Products />
       <FarmVideo />
       <Projects />
+      <Testimonials />
     </main>
   );
 }
