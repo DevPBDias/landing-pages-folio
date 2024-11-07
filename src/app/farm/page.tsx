@@ -1,4 +1,5 @@
 import About from "@/components/farm/about/About";
+import Contact from "@/components/farm/contact/Contact";
 import Header from "@/components/farm/header/Header";
 import Hero from "@/components/farm/hero/Hero";
 import News from "@/components/farm/news/News";
@@ -20,6 +21,7 @@ export default function FarmWbesite() {
       <Testimonials />
       <Services />
       <News />
+      <Contact />
     </main>
   );
 }
