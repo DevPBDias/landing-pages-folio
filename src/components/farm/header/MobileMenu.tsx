@@ -9,7 +9,7 @@ const MobileMenu = () => {
   const [open, setOpen] = useState<boolean>(true);
 
   return (
-    <header className="min-[1024px]:hidden">
+    <header className="lg:hidden">
       {open ? (
         <button
           className="absolute top-4 right-4"
