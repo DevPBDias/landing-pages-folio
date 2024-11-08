@@ -23,3 +23,14 @@ h3,
 h4 {
   font-family: var(--font-livvic);
 }
+
+.gradient-ads {
+  background-image: linear-gradient(
+    to right,
+    #f7c35f,
+    #b7a850,
+    #808b48,
+    #546b40,
+    #334b35
+  );
+}

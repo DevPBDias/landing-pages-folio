@@ -13,7 +13,7 @@ const NewsCard = ({ author, date, image, title, comments }: CardProps) => {
   return (
     <section className="w-full flex flex-col justify-center items-center bg-[var(--dark-primary-color)] rounded-2xl">
       <picture className="w-full relative rounded-2xl flex">
-        <Image src={image} alt={title} className="rounded-t-2xl" />
+        <Image src={image} alt={title} className="rounded-t-2xl w-full" />
         <span className="absolute bottom-0 right-0 text-xs p-2 bg-[var(--secondary-color)] text-black rounded-tl-2xl font-bold">
           {date}
         </span>

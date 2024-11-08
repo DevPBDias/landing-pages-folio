@@ -8,6 +8,7 @@ import Projects from "@/components/farm/projects/Projects";
 import Services from "@/components/farm/services/Services";
 import Testimonials from "@/components/farm/testimonials/Testimonials";
 import FarmVideo from "@/components/farm/video/FarmVideo";
+import Footer from "@/components/farm/footer/Footer";
 
 export default function FarmWbesite() {
   return (
@@ -22,6 +23,7 @@ export default function FarmWbesite() {
       <Services />
       <News />
       <Contact />
+      <Footer />
     </main>
   );
 }
