@@ -15,8 +15,8 @@ const FarmVideo = () => {
           priority
         />
       </picture>
-      <div className="absolute flex flex-col justify-center items-center px-4 gap-4">
-        <h1 className="w-2/3 text-center">
+      <div className="absolute flex flex-col justify-center items-center px-4 gap-4 md:flex-row md:justify-around">
+        <h1 className="w-2/3 text-center md:text-xl lg:text-2xl xl:text-3xl">
           Agriculture Matters to the Future of Bangladesh
         </h1>
         <Link
