@@ -4,11 +4,11 @@ import icon from "@/assets/farm/icons/production.png";
 
 const ProductionImg = () => {
   return (
-    <picture className="w-full relative flex flex-col items-center justify-center px-4 my-4">
+    <picture className="w-full xl:h-[500px] relative flex flex-col items-center justify-center px-4 my-4 lg:px-0">
       <Image
         src={aboutImg}
         alt="farm image"
-        className="object-cover w-full h-full"
+        className="object-cover w-full h-full rounded-2xl"
         quality={100}
         priority
       />
