@@ -6,13 +6,13 @@ import ServiceAds from "./ServiceAds";
 
 const Services = () => {
   return (
-    <section className="flex w-full flex-col-reverse gap-10 py-20">
+    <section className="flex w-full md:h-[700px] flex-col-reverse gap-10 my-20 md:flex-row md:gap-0 bg-[var(--light-primary-color)]">
       <ServiceImage />
-      <section className="w-full flex flex-col relative h-fit px-4">
-        <h3 className="font-medium text-base mb-3 uppercase">
+      <section className="w-full md:h-full flex flex-col relative h-fit px-4 md:w-1/2 md:p-8">
+        <h3 className="font-medium text-base mb-3 uppercase md:text-lg lg:text-2xl opacity-75">
           MODERN AGRICULTURE
         </h3>
-        <h1 className="font-bold text-3xl mb-3">
+        <h1 className="font-bold text-3xl mb-3 md:text-4xl lg:text-5xl">
           Providing High Quality Products
         </h1>
         <ServiceCard

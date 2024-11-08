@@ -18,9 +18,9 @@ const ServiceCard = ({ image, title, description }: CardProps) => {
           className="w-full h-full object-cover"
         />
       </picture>
-      <div className="flex flex-col justify-center items-start gap-1">
+      <div className="flex flex-col justify-center items-start gap-1 ">
         <h3 className="font-bold text-xl">{title}Our Agriculture Growth</h3>
-        <p className="text-sm font-normal">{description}</p>
+        <p className="text-sm font-normal lg:text-base">{description}</p>
       </div>
     </div>
   );

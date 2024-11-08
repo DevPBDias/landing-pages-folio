@@ -17,7 +17,7 @@ const ServiceAds = () => {
         alt="service img"
         quality={100}
         priority
-        className="w-1/2 h-1/3 object-cover absolute bottom-0 right-0"
+        className="w-1/2 h-1/3 object-cover absolute bottom-0 right-0 md:w-full lg:h-1/2"
       />
     </>
   );
