@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const FooterLinks = () => {
   return (
-    <section className="w-full flex flex-col justify-center items-center gap-2 my-4">
+    <section className="w-full flex flex-col justify-center items-center gap-2 my-4 lg:my-0">
       <h1 className="font-bold text-lg">Useful Links</h1>
       {headerLinks.map((link) => (
         <Link

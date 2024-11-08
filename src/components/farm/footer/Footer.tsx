@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="w-full py-6 flex flex-col gap-6">
       <Ads />
-      <section className="flex flex-col justify-center items-center w-full gap-4">
+      <section className="flex flex-col justify-center items-center w-full gap-4 lg:flex-row lg:p-12 lg:items-start">
         <FooterMidia />
         <FooterLinks />
         <FooterSendEmail />

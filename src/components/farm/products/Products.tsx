@@ -4,7 +4,10 @@ import ProductCard from "./ProductCard";
 
 const Products = () => {
   return (
-    <section className="w-full flex flex-col py-8 px-4 my-24 lg:px-12">
+    <section
+      id="products"
+      className="w-full flex flex-col py-8 px-4 my-24 lg:px-12 lg:my-48"
+    >
       <h3 className="font-medium text-base mb-3 uppercase md:text-xl lg:text-2xl opacity-75">
         Popular Foods And Vegetables
       </h3>

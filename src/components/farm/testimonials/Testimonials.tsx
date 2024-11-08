@@ -4,7 +4,7 @@ import TestimonialCard from "./TestimonialCard";
 
 const Testimonials = () => {
   return (
-    <section className="w-full flex flex-col py-8 px-4 my-12 h-fit gap-12 lg:px-12">
+    <section className="w-full flex flex-col py-8 px-4 my-12 h-fit gap-12 lg:px-12 lg:my-48">
       <div className="w-full flex flex-col">
         <h3 className="font-medium text-base mb-3 uppercase md:text-lg lg:text-2xl opacity-75">
           Our Testimonials

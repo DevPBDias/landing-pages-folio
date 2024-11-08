@@ -6,7 +6,10 @@ import ServiceAds from "./ServiceAds";
 
 const Services = () => {
   return (
-    <section className="flex w-full md:h-[700px] flex-col-reverse gap-10 my-20 md:flex-row md:gap-0 bg-[var(--light-primary-color)]">
+    <section
+      id="services"
+      className="flex w-full md:h-[700px] flex-col-reverse gap-10 my-20 md:flex-row md:gap-0 bg-[var(--light-primary-color)] lg:my-48"
+    >
       <ServiceImage />
       <section className="w-full md:h-full flex flex-col relative h-fit px-4 md:w-1/2 md:p-8">
         <h3 className="font-medium text-base mb-3 uppercase md:text-lg lg:text-2xl opacity-75">

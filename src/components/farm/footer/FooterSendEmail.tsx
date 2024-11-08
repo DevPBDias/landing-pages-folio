@@ -10,7 +10,7 @@ const FooterSendEmail = () => {
   }
 
   return (
-    <div className="px-4 flex flex-col justify-center items-start gap-3">
+    <div className="px-4 flex flex-col justify-start items-start gap-3 lg:px-0">
       <h3 className="font-bold text-lg">Newsletter</h3>
       <p className="text-sm opacity-70">
         Subscribe to our weekly Newsletter and receive updates via email.
@@ -22,7 +22,7 @@ const FooterSendEmail = () => {
         <input
           type="text"
           name="email"
-          className="bg-[var(--dark-primary-color)] placeholder:px-2 p-2 rounded-lg w-full"
+          className="bg-[var(--dark-primary-color)] placeholder:px-2 p-2 rounded-lg w-full lg:w-80"
           placeholder="Your email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}

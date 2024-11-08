@@ -3,7 +3,7 @@ import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 
 const FooterMidia = () => {
   return (
-    <section className="px-4 flex flex-col justify-start items-start gap-6">
+    <section className="px-4 flex flex-col justify-start items-start gap-6 lg:px-0 md:w-3/4">
       <div className="flex flex-col justify-start items-start w-full gap-2">
         <Logo />
         <p className="text-sm opacity-75">

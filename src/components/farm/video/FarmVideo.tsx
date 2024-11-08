@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const FarmVideo = () => {
   return (
-    <section className="w-full my-12 h-[70vh] flex relative justify-center items-center">
+    <section className="w-full my-12 h-[70vh] flex relative justify-center items-center lg:my-36">
       <picture className="w-full h-full">
         <Image
           src={video}

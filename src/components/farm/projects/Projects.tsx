@@ -4,7 +4,10 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <section className="w-full flex flex-col py-8 px-4 my-12 lg:px-12">
+    <section
+      id="projects"
+      className="w-full flex flex-col py-8 px-4 my-12 lg:px-12 lg:my-48"
+    >
       <h3 className="font-medium text-base mb-3 uppercase md:text-lg lg:text-2xl opacity-7">
         RECENTLY COMPLETED WORK
       </h3>

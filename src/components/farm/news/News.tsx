@@ -4,7 +4,10 @@ import NewsCard from "./NewsCard";
 
 const News = () => {
   return (
-    <section className="w-full flex flex-col py-8 px-4 lg:px-8">
+    <section
+      id="news"
+      className="w-full flex flex-col py-8 px-4 lg:px-8 lg:my-48"
+    >
       <h3 className="font-medium text-base mb-3 uppercase md:text-lg lg:text-2xl opacity-75">
         FROM THE BLOG
       </h3>
