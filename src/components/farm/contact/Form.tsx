@@ -15,7 +15,10 @@ const Form = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col w-full gap-4">
+    <form
+      onSubmit={handleSubmit}
+      className="flex flex-col w-full gap-4 lg:mt-10"
+    >
       <input
         type="text"
         name="name"
@@ -48,7 +51,7 @@ const Form = () => {
         onChange={(e) => setData({ ...data, message: e.target.value })}
       />
       <button
-        className="bg-[var(--secondary-color)] py-3 rounded-lg font-bold text-black"
+        className="bg-[var(--secondary-color)] py-3 rounded-lg font-bold text-black lg:w-56 lg:text-lg"
         type="submit"
       >
         Send
